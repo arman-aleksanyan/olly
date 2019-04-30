@@ -45,7 +45,7 @@ button.blue-button {
     text-decoration: none; }
 
 nav {
-  z-index: 1000;
+  z-index: 10000;
   height: 80px; }
   nav.navbar {
     position: absolute;
@@ -111,7 +111,7 @@ nav {
       background-color: #FFFFFF;
       -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
               box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      z-index: 999; }
+      z-index: 1001; }
       nav.navbar.sticky a.navbar-brand img {
         height: 45px;
         width: auto; }
